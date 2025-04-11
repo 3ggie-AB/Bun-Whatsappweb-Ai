@@ -11,7 +11,8 @@ lerna-debug.log*
 .pnpm-debug.log*
 pesan
 downloads
-
+.wwebjs_auth
+whatsapp-qr.png
 # Caches
 
 .cache

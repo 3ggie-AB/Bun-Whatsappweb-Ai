@@ -1,6 +1,9 @@
 {
   "name": "whatsapp-bot-bun",
   "module": "app.js",
+  "scripts": {
+    "start": "bun app.js"
+  },
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
