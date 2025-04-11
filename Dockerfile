@@ -1,6 +1,6 @@
-FROM oven/bun:1.0
+FROM node:20
 
-# Puppeteer deps
+# Install lib dependencies
 RUN apt-get update && apt-get install -y \
     wget \
     ca-certificates \
@@ -25,7 +25,6 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 COPY . .
 
-# Langsung install semua dependencies dari package.json
-RUN bun install
+RUN npm install
 
-CMD ["bun", "app.js"]
+CMD ["node", "app.js"]
