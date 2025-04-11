@@ -12,6 +12,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "debug": "^4.3.4",
     "https-proxy-agent": "^7.0.2",
     "axios": "^1.7.9",
     "node-schedule": "^2.1.1",
