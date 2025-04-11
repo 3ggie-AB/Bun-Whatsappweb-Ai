@@ -1,0 +1,14 @@
+[phases.setup]
+nixPkgs = [
+  "libnss3",
+  "libatk1.0",
+  "libatk-bridge2.0",
+  "libcups",
+  "libgbm",
+  "libasound",
+  "libpangocairo",
+  "libxss",
+  "libgtk-3",
+  "libxshmfence",
+  "libglu"
+]

@@ -2,7 +2,7 @@
   "name": "whatsapp-bot-bun",
   "module": "app.js",
   "scripts": {
-    "start": "bun app.js"
+    "start": "pm2 start app.js --interpreter=bun"
   },
   "type": "module",
   "devDependencies": {

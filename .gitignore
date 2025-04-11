@@ -12,6 +12,7 @@ lerna-debug.log*
 pesan
 downloads
 .wwebjs_auth
+.wwebjs_cache
 whatsapp-qr.png
 # Caches
 
