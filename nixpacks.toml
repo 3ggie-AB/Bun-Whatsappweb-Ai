@@ -1,14 +1,14 @@
 [phases.setup]
 nixPkgs = [
-  "libnss3",
-  "libatk1.0",
-  "libatk-bridge2.0",
-  "libcups",
-  "libgbm",
-  "libasound",
-  "libpangocairo",
+  "nss",
+  "atk",
+  "atk-bridge",
+  "cups",
+  "mesa", # untuk libgbm
+  "alsa-lib", # untuk libasound
+  "pango",
   "libxss",
-  "libgtk-3",
+  "gtk3",
   "libxshmfence",
-  "libglu"
+  "glu"
 ]
