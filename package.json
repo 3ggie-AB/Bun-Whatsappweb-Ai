@@ -12,12 +12,15 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "debug": "^4.3.4",
-    "https-proxy-agent": "^7.0.2",
     "axios": "^1.7.9",
+    "chrome-aws-lambda": "^10.1.0",
+    "debug": "^4.3.4",
+    "express": "^5.1.0",
+    "https-proxy-agent": "^7.0.2",
     "node-schedule": "^2.1.1",
+    "playwright": "^1.51.1",
     "pm2": "^5.4.3",
-    "puppeteer": "^23.10.4",
+    "puppeteer-core": "^24.6.1",
     "qrcode": "^1.5.4",
     "sharp": "^0.33.5",
     "whatsapp-web.js": "^1.26.0",
